@@ -55,7 +55,11 @@ header {
 
 header figure {
     border: 1px solid teal;
-    width: 12rem;
+    width: 4rem;
+}
+
+header figure img {
+    width: 100%;
 }
 
 header nav ul {
@@ -65,12 +69,11 @@ header nav ul {
 }
 
 header nav ul li a {
-    color: var(--primary);
+    color: var(--secondary);
     text-decoration: none;
 }
 
 header nav ul li a:hover {
-    color: var(--primary);
     font-weight: 600;
     text-decoration: underline;
 }
