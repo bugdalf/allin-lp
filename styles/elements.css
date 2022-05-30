@@ -1,0 +1,14 @@
+/* Elementos del html h1... a p*/
+header {
+    position: relative;
+}
+
+a {
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: 600;
+    text-decoration: underline;
+}

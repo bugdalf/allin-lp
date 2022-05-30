@@ -1,0 +1,21 @@
+@media (max-width: 576px) {
+    #button-hamburger {
+        display: block;
+    }
+    #menu-hamburger {
+        display: none;
+    }
+
+    /* Activar el menu  */
+    .menu-hamburger--active {
+        display: block !important;
+        position: absolute;
+        right: var(--spacing-l);
+        bottom: -10rem;
+        border: 1px solid tomato;
+    }
+    
+    .menu-hamburger--active > ul {
+        flex-direction: column;
+    }
+}
